@@ -1,0 +1,21 @@
+{
+    "name": "gauz/starship-management",
+    "description": "Starship data management using SWAPI with PHP and ASCII tables.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Starships\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kirill Gringauz",
+            "email": "me@gauz.net"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "malios/php-to-ascii-table": "^3.0"
+    }
+}
